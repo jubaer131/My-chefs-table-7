@@ -6,7 +6,7 @@ const Sidebar2 = ({ addRacipy }) => {
 
     return (
 
-        <div>
+        <div className="lg:px-10">
             {
                 // eslint-disable-next-line react/prop-types
                 addRacipy.map((data, index) =>

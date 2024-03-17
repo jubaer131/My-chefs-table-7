@@ -49,7 +49,7 @@ const Sidebar = ({ clicks, handleRemove }) => {
                     </thead>
                 </table>
             </div>
-            <div>
+            <div className='max-sm:px24 lg:px-3'>
                 {
                     // eslint-disable-next-line react/prop-types
                     clicks.map((item, index) =>
