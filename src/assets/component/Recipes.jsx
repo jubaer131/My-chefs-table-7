@@ -14,7 +14,7 @@ const Recipes = ({ handleClick }) => {
 
 
     return (
-        <div className='w-7/12 grid grid-cols-2 gap-5'>
+        <div className='w-7/12 grid grid-cols-1 lg:grid-cols-2  gap-5 max-sm:w-full'>
 
 
             {

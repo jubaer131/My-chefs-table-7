@@ -1,11 +1,13 @@
 
 import PropTypes from 'prop-types';
 import { IoTimeOutline } from "react-icons/io5";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Recipy = ({ recipy, handleClick }) => {
     const { recipe_image, recipe_name, short_description, preparing_time, calories, ingredients } = recipy;
 
-    console.log(recipy)
+
     return (
         <div>
             <div className="card  bg-base-100 shadow-xl">
@@ -39,7 +41,8 @@ const Recipy = ({ recipy, handleClick }) => {
                             <p className='text-left'><span></span>{calories}</p>
                         </div>
                         <div className='text-left'>
-                            <button onClick={() => { handleClick(recipy) }} className="btn  lg:w-[170px] lg:h-[60px] bg-green-500 rounded-3xl border-0 lg:text-xl">Want to cook</button>
+                            <button onClick={() => handleClick(recipy)} className="btn  lg:w-[170px] lg:h-[60px] bg-green-500 rounded-3xl border-0 lg:text-xl">Want to cook</button>
+                            <ToastContainer />
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 [
     {
-        "recipe_id": 1,
+        "id": 1,
         "recipe_image": "https://i.ibb.co/7RcT362/top-view-tasty-italian-pasta-with-meatballs-different-seasonings-dark-blue-desk.jpg",
         "recipe_name": "Spaghetti Bolognese",
         "short_description": "Classic Italian pasta dish with rich tomato sauce and ground beef",
@@ -18,7 +18,7 @@
         "calories": "450 calories"
     },
     {
-        "recipe_id": 2,
+        "id": 2,
         "recipe_image": "https://i.ibb.co/KxmGRLc/healthy-salad-with-fish-baked-salmon-tomatoes-lime-lettuce-healthy-dinner.jpg",
         "recipe_name": "Chicken Caesar Salad",
         "short_description": "Fresh and crunchy salad with grilled chicken, crisp lettuce, and tangy Caesar dressing",
@@ -36,7 +36,7 @@
         "calories": "380 calories"
     },
     {
-        "recipe_id": 3,
+        "id": 3,
         "recipe_image": "https://i.ibb.co/ngx289x/side-view-chicken-ragout-fried-chicken-drumstick-with-onion-bell-pepper-greens-table.jpg",
         "recipe_name": "Vegetable Stir-Fry",
         "short_description": "Colorful and nutritious stir-fried vegetables with a savory sauce",
@@ -55,7 +55,7 @@
         "calories": "150 calories"
     },
     {
-        "recipe_id": 4,
+        "id": 4,
         "recipe_image": "https://i.ibb.co/vQsw3W8/front-view-pile-cookies.jpg",
         "recipe_name": "Chocolate Chip Cookies",
         "short_description": "Classic homemade cookies loaded with chocolate chips",
@@ -71,10 +71,10 @@
             "2 cups semisweet chocolate chips"
         ],
         "preparing_time": "20 min",
-        "calories": "180 calories per cookie"
+        "calories": "180 calories "
     },
     {
-        "recipe_id": 5,
+        "id": 5,
         "recipe_image": "https://i.ibb.co/V06LSbT/front-view-greece-salad-sliced-vegetable-salad-with-tomatoes-cucumbers-white-cheese-olives-inside-wh.jpg",
         "recipe_name": "Greek Salad",
         "short_description": "A refreshing salad with crisp lettuce, juicy tomatoes, cucumbers, olives, and feta cheese",
@@ -92,7 +92,7 @@
         "calories": "220 calories"
     },
     {
-        "recipe_id": 6,
+        "id": 6,
         "recipe_image": "https://i.ibb.co/Mc93cHj/chilli-fish-sauce-white-surface.jpg",
         "recipe_name": "Vegetarian Chili",
         "short_description": "Hearty and satisfying chili loaded with beans, vegetables, and bold spices",
